@@ -6,6 +6,7 @@
 #include <QSqlQuery>
 #include <QFile>
 #include <QDebug>
+#include <QList>
 #include "agvitem.h"
 
 /* Директивы имен таблицы, полей таблицы и базы данных */
@@ -29,8 +30,8 @@ public:
     bool restoreDataBase();                                                               // Востановление базы данных
     bool createTable();                                                                   // Создание базы таблицы в базе данных
     bool closeDataBase();
+    QList<AgvItem> fetchAGVs();
 
-   // QList<AgvItem>
     explicit DataBase(QObject *parent = nullptr);
 
 private:

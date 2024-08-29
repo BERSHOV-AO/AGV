@@ -151,3 +151,29 @@ bool DataBase::createTable()
     return true;
 }
 
+
+QList<AgvItem> DataBase::fetchAGVs() {
+    QList<AgvItem> agvs;
+
+    QSqlQuery query("SELECT name, serialNumber, versionFW, model, ePlan, dataLastTo FROM " TABLE_AGV);
+
+    if (!query.exec()) {
+     //   qWarning() << "Ошибка выполнения запроса:" << query.lastError().text();
+        return agvs; // Возвращаем пустой список в случае ошибки
+    }
+
+    while (query.next()) {
+        AgvItem agv(
+            query.value(0).toString(),
+            query.value(1).toString(),
+            query.value(2).toString(),
+            query.value(3).toString(),
+            query.value(4).toString(),
+            query.value(5).toString()
+        );
+        agvs.append(agv);
+    }
+
+    return agvs;
+}
+

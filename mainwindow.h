@@ -17,6 +17,9 @@
 #include <QtSql>
 #include <QtCore>
 #include <QDialog>
+#include <QTableWidget>
+#include <QStringList>
+#include <QHeaderView>
 #include "database.h"
 
 class MainWindow : public QDialog
@@ -32,8 +35,11 @@ public:
     QLabel* mainLabel;
     QLabel *imageLabel;
     QStringList  stringListModel;
-  //  QString      getTableNames();
+    QList<AgvItem> listAgv;
+    //  QString      getTableNames();
     DataBase*        db;
+    QTableWidget *table;
+
 
     ~MainWindow();
 };
