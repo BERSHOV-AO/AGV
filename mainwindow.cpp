@@ -1,7 +1,7 @@
 #include "mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)
-    : QWidget(parent)
+    : QDialog(parent)
 {
     button1 = new QPushButton("Добавить AGV");
     button2 = new QPushButton("Список AGV");
@@ -10,12 +10,15 @@ MainWindow::MainWindow(QWidget *parent)
     mainLabel = new QLabel();
     imageLabel = new QLabel();
 
+    db = new DataBase;
+    db->connectToDataBase();
+
     mainLabel->setStyleSheet("background-color: white; color: black; padding: 10px;"); // Белый фон и отступы
-    label->setStyleSheet("color: white; padding: 10px; font-size: 30px; font-weight: bold; font-style: italic;");
+    label->setStyleSheet("color: white; padding: 10px; font-size: 30px; font-weight: bold;");
     label->setMaximumHeight(50);
 
     // Устанавливаем фиксированный размер для mainLabel
-    mainLabel->setFixedSize(1400, 700);
+    mainLabel->setFixedSize(1000, 450);
 
     QPixmap pixmap("C:/Users/Aleksey/Documents/AGV/image/logo_gaz.png"); // Укажите путь к вашему изображению
     QPixmap scaledPixmap = pixmap.scaled(100, 100, Qt::KeepAspectRatio, Qt::SmoothTransformation);
@@ -62,32 +65,6 @@ MainWindow::MainWindow(QWidget *parent)
     //******************************************************************************************
 
 
-    //___________________________________DB____________________________________
-//        QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
-//        db.setHostName("localhost");
-//        db.setDatabaseName("agv_db");
-//        db.setUserName("root");
-//        db.setPassword("");
-
-    //    //____________________________________________________________________________
-
-    //      QSqlQuery query;
-    //      QString str = QString("SELECT serialNumber FROM agv");
-    //      query.prepare(str);
-
-    //      if(query.exec())
-    //      {
-    //          for(int i = 0; i < 3; i++)
-    //          {
-    //              query.next();
-    //              stringListModel << query.value(0).toString();
-    //          }
-    //      }
-
-    QString tables = getTableNames();
-    mainLabel->setText(tables);
-
-
     // Добавление лейаута с меткой и кнопками в основной лейаут
     mainLayout->addLayout(labelImageLayout); // Сначала добавляем лейаут с меткой
     mainLayout->addWidget(mainLabel); // Затем добавляем mainLabel
@@ -97,46 +74,7 @@ MainWindow::MainWindow(QWidget *parent)
     this->setLayout(mainLayout);
 }
 
-QString MainWindow::getTableNames() {
-    QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
-    db.setHostName("127.0.0.1");
-    db.setPort(3306);
-    db.setDatabaseName("agv_db");
-    db.setUserName("root");
-   // db.setPassword("");
 
-//    if (!db.open()) {
-//        qDebug() << "Ошибка подключения к базе данных:"; //<< db.lastError().text();
-//        return QString();
-//    }
-
-    if( db.open() )
-       {
-           qDebug() << "Connected!";
-
-       }
-       else
-       {
-           QString errorMessage;
-           QString errorMessageDriverText;
-           QSqlError error = db.lastError();
-           if (error.isValid()) {
-                errorMessage = error.text(); // Получаем текст ошибки как QString
-                errorMessageDriverText = error.driverText();
-
-               // Теперь вы можете использовать errorMessage по своему усмотрению
-           }
-
-           qDebug() << "Failed to connect." << errorMessage << "   errorMessageDriverText: " << errorMessageDriverText;
-           return 0;
-       }
-
-
-    QStringList tableNames = db.tables(); // Получаем список таблиц
-    QString allTableNames = tableNames.join(", "); // Объединяем названия в одну строку через запятую
-
-    return allTableNames; // Возвращаем строку с названиями таблиц
-}
 
 MainWindow::~MainWindow()
 {

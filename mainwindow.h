@@ -16,7 +16,10 @@
 #include <QSqlError>
 #include <QtSql>
 #include <QtCore>
-class MainWindow : public QWidget
+#include <QDialog>
+#include "database.h"
+
+class MainWindow : public QDialog
 {
     Q_OBJECT
 
@@ -29,7 +32,8 @@ public:
     QLabel* mainLabel;
     QLabel *imageLabel;
     QStringList  stringListModel;
-    QString      getTableNames();
+  //  QString      getTableNames();
+    DataBase*        db;
 
     ~MainWindow();
 };

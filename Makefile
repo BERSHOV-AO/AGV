@@ -115,16 +115,11 @@ Makefile: AGV.pro ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qm
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_axserver_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_bluetooth.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_bluetooth_private.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_bodymovin_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_bootstrap_private.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_charts.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_charts_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_concurrent.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_concurrent_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_core.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_core_private.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_datavisualization.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_datavisualization_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_dbus.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_dbus_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_designer.pri \
@@ -150,8 +145,6 @@ Makefile: AGV.pro ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qm
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_network.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_network_private.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_networkauth.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_networkauth_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_nfc.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_nfc_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_opengl.pri \
@@ -166,8 +159,6 @@ Makefile: AGV.pro ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qm
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_positioningquick_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_printsupport.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_printsupport_private.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_purchasing.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_purchasing_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_qml.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_qml_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_qmldebug_private.pri \
@@ -180,16 +171,6 @@ Makefile: AGV.pro ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qm
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_qmlworkerscript_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3d.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3d_private.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3dassetimport.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3dassetimport_private.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3drender.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3drender_private.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3druntimerender.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3dutils.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3dutils_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quickcontrols2.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri \
@@ -203,10 +184,6 @@ Makefile: AGV.pro ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qm
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_remoteobjects_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_repparser.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_repparser_private.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_script.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_script_private.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_scripttools.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_scripttools_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_scxml.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_scxml_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_sensors.pri \
@@ -227,8 +204,6 @@ Makefile: AGV.pro ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qm
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_uiplugin.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_uitools.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_uitools_private.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_virtualkeyboard.pri \
-		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_virtualkeyboard_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_vulkan_support_private.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_webchannel.pri \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_webchannel_private.pri \
@@ -248,6 +223,7 @@ Makefile: AGV.pro ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qm
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/qt_config.prf \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qmake.conf \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/exclusive_builds.prf \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/toolchain.prf \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/default_pre.prf \
@@ -277,7 +253,6 @@ Makefile: AGV.pro ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qm
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Sql.prl \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Core.prl \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/qtmain.prl \
-		.qmake.stash \
 		../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile AGV.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/spec_pre.prf:
@@ -325,16 +300,11 @@ Makefile: AGV.pro ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qm
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_axserver_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_bluetooth.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_bluetooth_private.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_bodymovin_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_bootstrap_private.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_charts.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_charts_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_concurrent.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_concurrent_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_core.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_core_private.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_datavisualization.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_datavisualization_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_dbus.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_dbus_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_designer.pri:
@@ -360,8 +330,6 @@ Makefile: AGV.pro ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qm
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_multimediawidgets_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_network.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_network_private.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_networkauth.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_networkauth_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_nfc.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_nfc_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_opengl.pri:
@@ -376,8 +344,6 @@ Makefile: AGV.pro ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qm
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_positioningquick_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_printsupport.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_printsupport_private.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_purchasing.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_purchasing_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_qml.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_qml_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_qmldebug_private.pri:
@@ -390,16 +356,6 @@ Makefile: AGV.pro ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qm
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_qmlworkerscript_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_qtmultimediaquicktools_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3d.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3d_private.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3dassetimport.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3dassetimport_private.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3drender.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3drender_private.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3druntimerender.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3druntimerender_private.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3dutils.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick3dutils_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quick_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quickcontrols2.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_quickcontrols2_private.pri:
@@ -413,10 +369,6 @@ Makefile: AGV.pro ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qm
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_remoteobjects_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_repparser.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_repparser_private.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_script.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_script_private.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_scripttools.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_scripttools_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_scxml.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_scxml_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_sensors.pri:
@@ -437,8 +389,6 @@ Makefile: AGV.pro ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qm
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_uiplugin.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_uitools.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_uitools_private.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_virtualkeyboard.pri:
-../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_virtualkeyboard_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_vulkan_support_private.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_webchannel.pri:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/modules/qt_lib_webchannel_private.pri:
@@ -458,6 +408,7 @@ Makefile: AGV.pro ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qm
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/qt_config.prf:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/win32-g++/qmake.conf:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/exclusive_builds.prf:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/toolchain.prf:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/default_pre.prf:
@@ -487,7 +438,6 @@ AGV.pro:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Sql.prl:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/Qt5Core.prl:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/lib/qtmain.prl:
-.qmake.stash:
 ../../../../Qt/Qt5.14.2/5.14.2/mingw73_64/mkspecs/features/build_pass.prf:
 qmake: FORCE
 	@$(QMAKE) -o Makefile AGV.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
